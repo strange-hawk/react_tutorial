@@ -1,0 +1,22 @@
+@import './base/settings';
+@import './base/base';
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(103, 115, 126);
+    color: white;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.App{
+    text-align: center;
+}
